@@ -6,6 +6,10 @@ An automated tool to change WiFi passwords on specific router models using Selen
 
 This script automates the process of changing WiFi passwords for both 2.4GHz and 5GHz networks on supported routers. It uses Selenium WebDriver to interact with the router's web interface.
 
+## Router Model
+
+- Huawei EG8145V5
+
 ## Prerequisites
 
 - Node.js (v20.18.0 or higher)
@@ -82,10 +86,6 @@ New Password: newpassword123
 - Avoid storing credentials in the script
 - Use secure passwords
 - Run on trusted networks only
-
-## License
-
-[Your chosen license]
 
 ## Author
 
