@@ -54,11 +54,11 @@ async function changePassword(driver, freq) {
     const iframe = await driver.findElement(By.id('frameContent'));
     await driver.switchTo().frame(iframe);
 
-    if (freq === '2g') {
-        // Select Secondary 2.4 GHz Tab
-        const wifiChooseButton = await driver.findElement(By.xpath('//*[@id="record_1"]'));
-        await wifiChooseButton.click();
-    }
+    // if (freq === '2g') {
+    //     // Select Secondary 2.4 GHz Tab
+    //     const wifiChooseButton = await driver.findElement(By.xpath('//*[@id="record_1"]'));
+    //     await wifiChooseButton.click();
+    // }
 
     // Check WiFi SSID Name
     const ssidName = await driver.findElement(By.xpath('//*[@id="wlSsid"]'));
