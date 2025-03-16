@@ -16,7 +16,7 @@ This script automates the process of changing WiFi passwords for both 2.4GHz and
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/irfanimaduddin/wifi-pass-change-js.git)
 cd wifi-password-changer
 ```
 
